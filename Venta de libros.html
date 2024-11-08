@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Paraguay del Futuro - Venta de Libros Técnicos</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #20B2AA; /* Fondo verde agua */
+            color: #FFFFFF; /* Texto en blanco */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Título principal con animación */
+        .title {
+            font-size: 2em;
+            color: #FFD700; /* Texto en amarillo dorado */
+            animation: slide 2s infinite alternate;
+        }
+
+        @keyframes slide {
+            from { transform: translateX(-10px); }
+            to { transform: translateX(10px); }
+        }
+
+        /* Texto descriptivo */
+        .description {
+            margin: 20px 0;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Imagen general */
+        .image {
+            width: 100%; /* Imagen amplia */
+            max-width: 300px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        /* Sección de categorías */
+        .categories {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .book {
+            margin: 15px 0;
+            color: #FFD700; /* Texto en amarillo dorado */
+            background-color: #555555;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .book img {
+            width: 120px; /* Tamaño aumentado de la imagen */
+            height: auto;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        /* Contacto */
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Título de la página -->
+        <h1 class="title">Bienvenido a El Paraguay del Futuro</h1>
+        <p class="description">
+            Tu plataforma en línea especializada en la venta de libros técnicos.
+        </p>
+
+        <!-- Imagen introductoria -->
+        <img src="https://pictures.abebooks.com/inventory/md/md22904090171.jpg" alt="Libros Técnicos" class="image">
+
+        <!-- Descripción general -->
+        <p class="description">
+            En nuestra web encontrarás una amplia selección de títulos de alta calidad, con el objetivo de satisfacer las necesidades de los profesionales, estudiantes y expertos en diversos campos como la parte de programación, matemáticas, hardware, administración financiera y algorítmica. ¡Aprende y actualízate de la manera que mejor se adapte a ti!
+        </p>
+
+        <!-- Imagen adicional -->
+        <img src="https://www.etp.com.py/img/xtapa-mediana-23485.jpg.pagespeed.ic.lpg8uN55Gf.webp" alt="Explora Categorías" class="image">
+
+        <p class="description">
+            Navega por nuestras categorías y descubre los títulos más llamativos. Comienza a transformar tu aprendizaje hoy mismo.
+        </p>
+
+        <!-- Imagen adicional -->
+        <img src="https://simehbucket.s3.amazonaws.com/images/3012e4fbe03f911b804ed3e00de3da15-medium.jpg" alt="Descubre Libros" class="image">
+
+        <!-- Categorías de libros con precios -->
+        <div class="categories">
+            <h3>Les ofrecemos los libros avanzados de:</h3>
+
+            <div class="book">
+                Informática en Hardware - Precio: 45.500 Gs
+                <img src="https://pictures.abebooks.com/inventory/md/md22904090171.jpg" alt="Libro de Hardware">
+            </div>
+
+            <div class="book">
+                Programación Avanzada - Precio: 65.000 Gs
+                <img src="https://www.etp.com.py/img/xtapa-mediana-23485.jpg.pagespeed.ic.lpg8uN55Gf.webp" alt="Libro de Programación">
+            </div>
+
+            <div class="book">
+                Algorítmica - Precio: 55.500 Gs
+                <img src="https://simehbucket.s3.amazonaws.com/images/3012e4fbe03f911b804ed3e00de3da15-medium.jpg" alt="Libro de Algorítmica">
+            </div>
+
+            <div class="book">
+                Matemáticas - Precio: 30.000 Gs
+                <img src="https://www.etp.com.py/img/tapa-mediana-17386.jpg" alt="Libro de Matemáticas">
+            </div>
+
+            <div class="book">
+                Administración Financiera - Precio: 45.000 Gs
+                <img src="https://www.etp.com.py/img/xtapa-mediana-1143052.jpg.pagespeed.ic.Z8WTp9XnbD.webp" alt="Libro de Administración Financiera">
+            </div>
+        </div>
+
+        <!-- Contacto -->
+        <div class="contact-info">
+            <h3>Contactanos a través de WhatsApp:</h3>
+            <p>Opción 1: +595 984 057606</p>
+            <p>Opción 2: +595 992 219047</p>
+        </div>
+
+        <!-- Mensaje de despedida -->
+        <div class="footer">Gracias por visitarnos :D</div>
+    </div>
+</body>
+</html>
